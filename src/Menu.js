@@ -7,7 +7,7 @@ const notebooks = [
         URL: '/notebook1'
     },
     {
-        text: 'notebook2 3453',
+        text: 'notebook2 3ere',
         URL: '/notebook2'
     },
     {
