@@ -3,7 +3,7 @@ import './App.css';
 
 const notebooks = [
     {
-        text: 'notebook1',
+        text: 'notebook123',
         URL: '/notebook1'
     },
     {
