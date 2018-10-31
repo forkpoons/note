@@ -1,51 +1,73 @@
 .App {
+    height: 100vh;
+    display: flex;
 }
 .menu{
-  color: white;
-  background: #3e3e3e;
-  height: 100vh;
-  width: 250px;
-  padding:20px;
+    color: white;
+    height: 100%;
+    background: #3e3e3e;
+    width: 250px;
 }
 .logo{
-  font-size: 40px;
+    padding: 20px;
+    font-size: 40px;
 }
 .logo-img{
-  background: #afafaf;
-  width: 50px;
-  height: 50px;
-  border-radius: 20px;
-  display: inline-block;
+    background: #afafaf;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    display: inline-block;
 }
 .new-note{
-  display: flex;
+    padding: 20px;
+    display: flex;
 }
 .new-note-text{
-  font-size: 25px;
-  margin-left: 10px;
-  margin-top: 20px;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 .new-note-img{
-  background: #46ff3a;
-  width: 30px;
-  height: 30px;
-  border-radius: 25px;
-  display: inline-block;
-  margin-top: 20px;
+    background: #46ff3a;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 20px;
 }
 .new-note-img1:first-child {
-  transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 .new-note-img1:last-child{
-
-  position: relative;
-  top:-21px;
+    position: relative;
+    top:-21px;
 }
 .new-note-img1{
-  height: 3px;
-  margin-left: 7px;
-  border-radius: 3px;
-  width: 16px;
-  background: white;
-  display: inline-block;
+    height: 3px;
+    margin-left: 7px;
+    border-radius: 3px;
+    width: 16px;
+    background: white;
+    display: inline-block;
+}
+.color-white{
+    color: white;
+}
+.notes{
+    background: #afafaf;
+    height: 100%;
+    width:350px;
+    padding:20px;
+}
+.notes-head h5{
+    margin-top: 100px;
+}
+.notes-head{
+    height:150px;
+    width: 290px;
+}
+.note{
+    border-top: 1px solid #676767;
+    padding: 10px;
 }
